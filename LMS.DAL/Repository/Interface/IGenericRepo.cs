@@ -9,6 +9,7 @@ namespace LMS.DAL.Repository.Interface
 		void Delete(int id);
 
 		TEntity Get(int id);
+		TEntity Get(int id);
 		IEnumerable<TEntity> GetAll();
 
 		TEntity Get(Expression<Func<TEntity, bool>> filer);
