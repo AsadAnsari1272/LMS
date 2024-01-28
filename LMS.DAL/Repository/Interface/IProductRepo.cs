@@ -4,6 +4,8 @@ namespace LMS.DAL.Repository.Interface
 {
 	public interface IProductRepo : IGenericRepo<Product>
 	{
-		void GetPriceDetail();
+		void Update(Product product);
+		void Save();
+
 	}
 }
